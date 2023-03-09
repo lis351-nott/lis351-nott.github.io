@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+	font-family: "Roboto Serif", Roboto;
+	color: white;
+	background-color: black;
+}
+
+a {
+	color: #F70FBC;
+}
+
+a::after {
+	color: #B000F0;
+}
+
+.bg {
+	text-align: left;
+	width: 800px;
+	margin: auto;
+}
+
+.tab {
+    border-bottom: 1px solid white;
+    display: inline-block;
+}
+
+.tab ol {
+	list-style-type: none;
+    padding-left: 0;
+}
+
+.tab li {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.images {
+	text-align: center;
+}
+
+.images p {
+	color: #bebebe;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.outside {
+	position: absolute;
+	left: 290px;
+	top: 170px;
+	width: 230px;
+	text-align: left;
+	border: 2px outset white;
+	padding: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CS525</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Serif">
+	<link rel="stylesheet" href="../style.css">
+</head>
+<script src=""></script> 
+
+	<body>
+		<div class="bg">
+		<h1>UW-Madison Computer Science Course Review</h1>
+		<nav class="tab">
+			<ol>
+				<li><a href="../index.html">Main</a></li>
+				<li><a href="../basic-cs/basic-cs.html">Basic Computer Sciences</a></li>
+				<li><a href="../basic-calculus/basic-calculus.html">Basic Calculus</a></li>
+				<li><a href="../beyond-calculus/beyond-calculus.html">Additional Mathematics</a></li>
+				<li><a href="../advance-cs/advance-cs.html">Advanced CS Courses</a>	</li>
+			</ol>
+		</nav>
+
+		<h2>COMP SCI 525 - Linear Optimization</h2>
+		<p>You are an owner of a restaurant. Today, as usual, there are an overwhelming number of customers storming in. With this much royal customers, you may assume that any dish that you cook will be purchased. Because of this, a day always ends with your materials run out, thus cannot cook anymore, leaving some customers hanging their heads and going home without being able to eat your delicious food.</p>
+		<p>You can formulate this wonderful situation into the following:</p>
+		<dl>
+			<dt>Ingredients</dt>
+			<dd>There are M types of ingredients in your restaurant.</dd>
+			<dd>At the start of today, you have b[j] kilograms of j-th type of ingredients. (for all 1 <= j <= M)</dd>
+
+			<dt>Menu</dt>
+			<dd>There are N menus in your restaurant.</dd>
+			<dd>The i-th menu uses a[i][j] kilograms of j-th type of ingredients. (for all 1 <= i <= N, 1 <= j <= M)</dd>
+			<dd>The i-th menu has a revenue of c[i] dollars per dish</dd>
+		</dl>
+		<p><strong>Question:</strong> How much of each menu should you produce so that you have the maximum revenue possible?</p>
+
+		<p>If you let x[i] denoted as the amount that we produce the i-th menus, we can formulate this into a <strong>linear programming</strong> as follow</p>
+
+		<div class="images">
+			<img src="cs525_picture.PNG" alt="Formularization of the problem in linear programming form">
+			<p>I wrote this on LaTeX on one of my homework</p>
+		</div>
+
+		<p>...and we will this formulation a lot.</p>
+		<p>So in this class, we study the formulation of various problems, starting from problems in your everyday life to some complex city planning problems, into a linear program.</p>
+		<p> We will also learn the "efficient" algorithms to solve these problems. In particular, we will learn how to develop the famous <strong>Simplex Method</strong> from ground up. </p>
+		<p>By the end of the course, you will have a very deep understanding of how to solve linear programming problem efficiently, and probably have a better understanding of what you have been using in <a href="https://www.gams.com/latest/docs/UG_ModelSolve.html">GAMS</a> to solve linear programming problems. (LOL)</p>
+		<p>Unfortunately, there is no programming in this course. This is a very <i>linear algebra</i> heavy course. You will be doing a lot of proofs, so be prepared. (Though I would say they are not too strict on the writing.)</p>
+		<p>Overall, I really enjoy this course! If you are interested in this course, OR you have enrolled this course and want to learn more about optimization, consider the following courses,</p>
+
+		<ul>
+			<li>ISyE/Math/CS 425: Introduction to Combinatorial Optimization</li>
+			<li>CS/ECE/ISyE 524: Introduction to Optimization</li>
+			<li>CS/ISyE 526: Advanced Linear Programming</li>
+			<li>ISyE/Math/CS/Stat 726: Nonlinear Optimization I</li>
+			<li>ISyE/Math/CS 728: Integer Optimization</li>
+		</ul>
+		</div>	
+
+		<p><a href="advance-cs.html">Back</a></p>
+	</body>
+
+</html>
